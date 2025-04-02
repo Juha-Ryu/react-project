@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
-import { ThemeType } from './Theme';
 
-const GlobalStyle = createGlobalStyle<{ theme: ThemeType }>`
+const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Pretendard';
     src: url('/fonts/PretendardVariable.woff2') format('woff');
